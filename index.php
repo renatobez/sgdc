@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="./_css/style.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>SGDC - Sistema de Gerenciamento e Dados de Chromebook</title>
     </head>
 <body>
@@ -17,7 +17,7 @@
                 <!-- box login -->
                 <div class="card p-3" style="width: 450px; margin: auto">
                     <div class="card-body">
-                        <img class="logo-login my-1" src="./_img/logo-login2.png" alt="">
+                        <img class="logo-login my-1" src="img/logo-login2.png" alt="">
                         <p class="card-title text-center mt-3"> Use seu e-mail institucional para entrar</p>
                         <!-- formulário de acesso -->
                         <form action="./sections/painel.php" method="post">

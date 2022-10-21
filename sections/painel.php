@@ -1,3 +1,6 @@
+<?php
+ require "../core/functions.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,13 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../_css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>SGDC</title>
 </head>
 <body class="painel">
 <!-- navegação topo -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
+    <a class="navbar-brand" href="#">SGDC</a>
 
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
         <form class="form-inline my-2 my-lg-0">
@@ -24,7 +27,7 @@
     <div class="row m-1">
         <div class="col-3 p-3" style="background: #e4e4e4">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <p class="nav-link" data-toggle="pill"  role="tab" aria-selected="false" style="background:#101820; color:white;">Bem vindo!</p>
+                <p class="nav-link" data-toggle="pill"  role="tab" aria-selected="false" style="background:#101820; color:white;"> <?php echo mostrarHora(); ?> </p>
                 <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Chromebook - Home </a>
                 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Cadastro</a>
                 <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Consulta</a>
@@ -35,7 +38,7 @@
         <div class="col-9 p-3">
             <div class="tab-content bg-light" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                    <iframe allow="camera; microphone; fullscreen; display-capture; autoplay" src="https://meet.jit.si/meetteste" style="height: 100%; width: 100%; border: 0px;"></iframe>
+                            oi
                 </div>
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Cadastro</div>
                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Consulta</div>

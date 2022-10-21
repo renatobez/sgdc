@@ -98,7 +98,7 @@ Customização Aba Desenvolvimento Web
 /*Background cards cursos*/
 .card-box-ads{
     border-radius: 4px;
-    background-image: url("../_img/banner-facebookADS.jfif");
+    background-image: url("../img/banner-facebookADS.jfif");
     background-repeat: no-repeat;
     background-size: cover;
 }

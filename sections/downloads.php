@@ -1,5 +1,5 @@
 <?php
-require  '../_core/tables_courses.php';
+require '../core/tables_courses.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -8,7 +8,7 @@ require  '../_core/tables_courses.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../_css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>rbsCoud - Downloads</title>
 </head>
 <body class="painel">
