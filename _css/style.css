@@ -1,0 +1,99 @@
+body{
+    background: #edeff0;
+}
+/**
+ customização tela login
+ */
+
+.card{
+    box-shadow: 0px 3px 1px rgba(48, 51, 51, 0.66);
+}
+.btn-login{
+    font-weight: bold;
+    background: #101820 !important;
+    color: white;
+}
+.logo-login{
+    width: 100% !important;
+    height: 140px !important;
+}
+.card-title{
+    color: #737373 !important;
+}
+.powered{
+    text-align: center;
+    margin-top: 5%;
+}
+input:focus{
+    box-shadow: 0px 1px #00a4a6 !important;
+}
+
+/**
+customização painel dashboard
+ */
+.navbar-painel{
+    background: #eef2f5;
+}
+.sidebar{
+    background: #eef2f5;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: calc(100vh - 70px);
+    padding: 10px;
+    border-radius: 0px 1px ;
+}
+.sidebar a{
+    text-decoration: none;
+}
+.sidebar a:hover{
+    font-weight: 600;
+}
+.icons-navbar{
+    color: #000000;
+    font-weight: bold;
+}
+.titles-dashboard{
+    color: #000000;
+    padding: 5px;
+    text-align: justify;
+    background: linear-gradient(269deg,#fff,#f0f7ff 30%,#f0f7ff);
+    border-radius: 5px;
+}
+/*  página de conteúdos*/
+.content{
+    width: 100%;
+    background: #ffffff;
+}
+.box-content{
+    background-color: #f7f7f7;
+}
+.title-content{
+    font-size: 1.4rem !important;
+    color: #00a4a6 !important;
+    padding: 5px;
+    text-align: center;
+    background-color: #eeeeee;
+    font-weight: bold;
+}
+
+.card-title{
+    color: #18191a !important;
+}
+
+/**
+Customização Aba Upload de material
+ */
+
+/* paragráfos titulos dos forms*/
+p.title-forms{
+    padding: 5px;
+    background-color: #ece9e9;
+    border-radius: 3px;
+    text-align: center;
+    color: #00a4a6;
+    margin-top: -1%;
+}
+
+
+
+
