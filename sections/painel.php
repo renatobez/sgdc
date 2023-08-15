@@ -25,16 +25,25 @@
 </nav>
 <!--painel principal -->
     <div class="row m-1">
-        <div class="col-2 p-3" style="background: #e4e4e4">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <p class="nav-link" data-toggle="pill"  role="tab" aria-selected="false" style="background:#101820; color:white;"><i class="bi bi-laptop"></i> <?php echo mostrarHora(); ?> </p>
+        <div class="col-2 p-3" style="background: #e4e4e4; border-right: 1px solid #d5d5d5;">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="height: 100vh;">
                 <!-- navbar chromebok-->
-                <p class="nav-link"  data-toggle="pill"  role="tab" aria-selected="true" style="background:#5a4880; color:white;"><i class="bi bi-chevron-compact-right"></i>Chromebook - Home </p>
+                <p class="nav-link"  data-toggle="pill"  role="tab" aria-selected="true" style="background:#161079; color:white;"><i class="bi bi-chevron-compact-right"></i>Despachos diretoria </p>
                 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-journal-plus"></i> Cadastro</a>
                 <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="bi bi-journal-text"></i> Consulta</a>
                 <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="bi bi-clipboard2-data"></i> Relatórios </a>
                 <!-- navbar professores-->
-                <p class="nav-link m-2" data-toggle="pill"  role="tab" aria-selected="false" style="background:#5a4880; color:white;">Professores - Home</p>
+                <p class="nav-link m-2" data-toggle="pill"  role="tab" aria-selected="false" style="background:#225d5c; color:white;"><i class="bi bi-chevron-compact-right"></i> Gerência de Software</p>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-cadastro-prof" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-journal-plus"></i> Cadastro</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-consulta-prof" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="bi bi-journal-text"></i> Consulta</a>
+                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-relatorio-prof" role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="bi bi-clipboard2-data"></i> Relatórios </a>
+
+                <p class="nav-link m-2" data-toggle="pill"  role="tab" aria-selected="false" style="background:#692c66; color:white;"><i class="bi bi-chevron-compact-right"></i> Gerência de Projetos</p>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-cadastro-prof" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-journal-plus"></i> Cadastro</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-consulta-prof" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="bi bi-journal-text"></i> Consulta</a>
+                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-relatorio-prof" role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="bi bi-clipboard2-data"></i> Relatórios </a>
+
+                <p class="nav-link m-2" data-toggle="pill"  role="tab" aria-selected="false" style="background:#c98240; color:white;"><i class="bi bi-chevron-compact-right"></i> Gerência de Suporte</p>
                 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-cadastro-prof" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-journal-plus"></i> Cadastro</a>
                 <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-consulta-prof" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="bi bi-journal-text"></i> Consulta</a>
                 <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-relatorio-prof" role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="bi bi-clipboard2-data"></i> Relatórios </a>
@@ -60,4 +69,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </body>
+<!-- azul #3b53b7 |  -->
 </html>
