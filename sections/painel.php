@@ -14,7 +14,7 @@
 <body class="painel">
 <!-- navegação topo -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">SGDC</a>
+    <a class="navbar-brand" href="painel.php">SysDEM</a>
 
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
         <form class="form-inline my-2 my-lg-0">
@@ -29,14 +29,14 @@
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="height: 100vh;">
                 <!-- navbar chromebok-->
                 <p class="nav-link"  data-toggle="pill"  role="tab" aria-selected="true" style="background:#161079; color:white;"><i class="bi bi-chevron-compact-right"></i>Despachos diretoria </p>
-                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-journal-plus"></i> Cadastro</a>
-                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="bi bi-journal-text"></i> Consulta</a>
-                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="bi bi-clipboard2-data"></i> Relatórios </a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-journal-plus"></i> Home</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-consultar" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="bi bi-journal-text"></i> Consulta</a>
+                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-relatorio" role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="bi bi-clipboard2-data"></i> Relatórios </a>
                 <!-- navbar professores-->
                 <p class="nav-link m-2" data-toggle="pill"  role="tab" aria-selected="false" style="background:#225d5c; color:white;"><i class="bi bi-chevron-compact-right"></i> Gerência de Software</p>
-                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-cadastro-prof" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-journal-plus"></i> Cadastro</a>
-                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-consulta-prof" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="bi bi-journal-text"></i> Consulta</a>
-                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-relatorio-prof" role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="bi bi-clipboard2-data"></i> Relatórios </a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-cadastro-home" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-journal-plus"></i> Cadastro</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-consulta-software" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="bi bi-journal-text"></i> Consulta</a>
+                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-relatorio-software" role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="bi bi-clipboard2-data"></i> Relatórios </a>
 
                 <p class="nav-link m-2" data-toggle="pill"  role="tab" aria-selected="false" style="background:#692c66; color:white;"><i class="bi bi-chevron-compact-right"></i> Gerência de Projetos</p>
                 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-cadastro-prof" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-journal-plus"></i> Cadastro</a>
@@ -49,16 +49,16 @@
                 <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-relatorio-prof" role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="bi bi-clipboard2-data"></i> Relatórios </a>
             </div>
         </div>
-        <div class="col-9 p-3">
-            <div class="tab-content bg-light" id="v-pills-tabContent">
+        <div class="col-10 p-3" >
+            <div class="tab-content bg-light p-2" id="v-pills-tabContent" style="border: 1px solid #d5d5d5" >
                 <!-- navbar conteúdo professores-->
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"> relatórios </div>
-                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Cadastro</div>
-                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Consulta</div>
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"> Home demandas diretoria </div>
+                <div class="tab-pane fade" id="v-pills-consultar" role="tabpanel" aria-labelledby="v-pills-profile-tab">Consultar demandas diretoria</div>
+                <div class="tab-pane fade" id="v-pills-relatorio" role="tabpanel" aria-labelledby="v-pills-messages-tab">Relatório de demandas</div>
                 <!-- navbar conteúdo professores-->
-                <div class="tab-pane fade" id="v-pills-cadastro-prof" role="tabpanel" aria-labelledby="v-pills-profile-tab">Cadastro prof </div>
-                <div class="tab-pane fade" id="v-pills-consulta-prof" role="tabpanel" aria-labelledby="v-pills-messages-tab">Consulta consulta prof</div>
-                <div class="tab-pane fade" id="v-pills-relatorio-prof" role="tabpanel" aria-labelledby="v-pills-messages-tab">Consulta consulta prof</div>
+                <div class="tab-pane fade" id="v-pills-cadastro-home" role="tabpanel" aria-labelledby="v-pills-profile-tab">Home demandas software </div>
+                <div class="tab-pane fade" id="v-pills-consulta-software" role="tabpanel" aria-labelledby="v-pills-messages-tab">Consultar demandas</div>
+                <div class="tab-pane fade" id="v-pills-relatorio-software" role="tabpanel" aria-labelledby="v-pills-messages-tab">Relatório de demandas</div>
             </div>
         </div>
     </div>

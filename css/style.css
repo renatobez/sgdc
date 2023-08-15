@@ -1,5 +1,7 @@
 body{
     background: #edeff0;
+    font-family: Arial !important;
+    font-size: 13px;
 }
 /**
  customização tela login
@@ -74,7 +76,15 @@ customização painel dashboard
     background-color: #eeeeee;
     font-weight: bold;
 }
-
+/*reseta os valores padrão do background do menu vertical*/
+a.nav-link{
+    color: #6f6f6f !important;
+}
+.nav-link.active{
+    font-weight: bold !important;
+    color: black !important;
+    background: none !important;
+}
 .card-title{
     color: #18191a !important;
 }
